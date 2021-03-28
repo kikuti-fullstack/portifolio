@@ -4,63 +4,117 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="scripts/scripts.js">
+  <link rel="stylesheet" href="style.css">
   <title>Meu Projeto</title>
 </head>
 <body>
   <header id="cabecalho">
     <h1 id="titulo">Meu projeto Trybe</h1>
-    <img class="trybe-icon" src="images/logo-trybe.png" alt="Ícone da trybe">
-    <nav>
+    <img id="trybe-icon" src="images/logo-trybe.png" alt="Ícone da trybe, é um 'Y' preto">
+    <nav id="header-navigation">
       <ul>
-        <li><a href="#">Item1</a></li>
-        <li><a href="#">Item2</a></li>
-        <li><a href="#">Item3</a></li>
-        <li><a href="#">Item4</a></li>
+        <li><a href="#cabecalho">header</a></li>
+        <li><a href="#main">main</a></li>
+        <li><a href="#main-content2">article</a></li>
+        <li><a href="#rodape">footer</a></li>
       </ul>
     </nav>
   </header>
-  <main>
+  <main id="main">
     <section id="main-content">
-      <section id="learned-content">
-        <h1 id="title-learned-content">Aprendido na Trybe</h1>
-        <ol id="licoes_aprendidas">
-          <li>DualBoot</li>
-          <li>Linux</li>
-          <li>Unix</li>
-          <li>Bash</li>
-          <li>Git</li>
-          <li>Github</li>
-          <li>Internet</li>
-          <li>Html</li>
-          <li>Html Semântico</li>
-          <li>Css</li>
-        </ol>
+      <section id="learned-and-unlearned">
+        <section id="learned-content">
+          <h3 id="title-learned-content">Aprendido na Trybe</h3>
+          <ol id="licoes_aprendidas">
+            <li>DualBoot</li>
+            <li>Linux</li>
+            <li>Unix</li>
+            <li>Bash</li>
+            <li>Git</li>
+            <li>Github</li>
+            <li>Internet</li>
+            <li>Html</li>
+            <li>Html Semântico</li>
+            <li>Css</li>
+          </ol>
+        </section>
+        <section id="unlearned-content">
+          <h3 id="title-unlearned-content">Ainda não aprendido na Trybe</h3>
+          <ul id="licoes_a_aprender">
+            <li>Javascript</li>
+            <li>DOM</li>
+            <li>Algoritmo</li>
+            <li>POO</li>
+            <li>Functions</li>
+            <li>Banco de dados</li>
+            <li>Sql</li>
+            <li>Node</li>
+            <li>React</li>
+            <li>ChatBot</li>
+          </ul>
+        </section>
       </section>
-      <section id="unlearned-content">
-        <h1 id="title-learned-content">Ainda não aprendido na Trybe</h1>
-        <ul id="licoes_a_aprender">
-          <li>Javascript</li>
-          <li>DOM</li>
-          <li>Algoritmo</li>
-          <li>POO</li>
-          <li>Functions</li>
-          <li>Banco de dados</li>
-          <li>Sql</li>
-          <li>Node</li>
-          <li>React</li>
-          <li>ChatBot</li>
+      <img id="minha_foto" src="images/minha-foto.png" alt="Uma foto minha, cabelos pretos, olhos castanhos.">
+    </section>
+
+    <hr />
+
+    <section id="main-content2">
+      <div id="article-and-table">
+        <article id="article-about-me">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec volutpat, enim eu dapibus rutrum, lectus urna imperdiet mi, nec sodales odio augue eu massa. Nam condimentum felis vel libero gravida egestas. Phasellus lacinia est a quam euismod, sit amet efficitur ipsum sagittis. In hac habitasse platea dictumst. Ut placerat, risus sit amet bibendum egestas, lectus enim mattis diam, sit amet lectus.
+        </article>
+        <table>
+          <tr>
+            <th>Teste1</th>
+            <th>Teste2</th>
+            <th>Teste3</th>
+          </tr>
+          <tr>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>Teste</td>
+          </tr>
+          <tr>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>Teste</td>
+          </tr>
+          <tr>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>Teste</td>
+          </tr>
+          <tr>
+            <td>Teste</td>
+            <td>Teste</td>
+            <td>Teste</td>
+          </tr>
+        </table>
+      </div>
+      <aside class="side-bar">
+        <h4 id="aside-title">Titulo Teste</h4>
+        <ul>
+          <li><a href="#">Alguma parte específica</a></li>
+          <li><a href="#">Outra parte específica</a></li>
+          <li><a href="#">Última parte específica</a></li>
         </ul>
-      </section>
-      <img id="minha_foto" src="images/minha-foto.png" alt="Uma foto minha fazendo graça, tirei a foto enquanto olhava pro espelho, tenho olhos castanhos, cabelo preto, usando roupas pretas.">
+      </aside>
     </section>
   </section>
+
+  <hr />
+
   </main>
-  <footer>
-    <a href="https://achecker.ca/checker/index.php?uri=referer&gid=WCAG2-AA">
-      <img src="https://achecker.ca/images/icon_W2_aa.jpg" alt="WCAG 2.0 (Level AA)" height="32" width="102" />
-    </a>
+  <footer id="rodape">
+    <section>
+      <ul>
+        <li><a href="www.google.com" target="_blank">Primeiro Link</a></li>
+        <li><a href="www.google.com" target="_blank">Segundo Link</a></li>
+        <li><a href="www.google.com" target="_blank">Terceiro Link</a></li>
+        <li><a href="www.google.com" target="_blank">Quarto Link</a></li>
+      </ul>
+    </section>
   </footer>
 </body>
 </html>
