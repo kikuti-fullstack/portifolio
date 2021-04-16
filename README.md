@@ -1,2 +1,2 @@
 # portifolio
-https://kikuti-fullstack.github.io/kikuti-portifolio
+https://kikutii.github.io/kikuti-portifolio
